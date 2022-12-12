@@ -436,8 +436,6 @@ void Duplo::Run(const Options& options) {
 
         if (processResult.Blocks() > 0) {
             std::cout << " found: " << processResult.Blocks() << " block(s)" << std::endl;
-        } else {
-            std::cout << " nothing found." << std::endl;
         }
 
         processResultTotal << processResult;
